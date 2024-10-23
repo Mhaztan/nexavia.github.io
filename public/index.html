@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Nexavia | Web Developer Portfolio -  Crafting Digital Experiences</title> 
+        <meta name="description" content="Nexavia's portfolio showcases a passionate web developer's expertise in crafting beautiful, functional websites that deliver results.  Explore projects, skills, and testimonials."> 
+        <meta name="keywords" content="web developer, portfolio, website design, development, web development, Nexavia, HTML, CSS, JavaScript, React, Python, Node.js"> 
+    
+        <!--  Open Graph Meta Tags for Social Sharing -->
+        <meta property="og:title" content="Nexavia | Web Developer Portfolio">
+        <meta property="og:description" content="Nexavia's portfolio showcases a passionate web developer's expertise in crafting beautiful, functional websites that deliver results.  Explore projects, skills, and testimonials.">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://nexavia10.web.app/" >  
+        <meta property="og:image" content="https://nexavia10.web.app/assets/img/hero.jpeg" >  
+    
+        <!--  Twitter Card Meta Tags -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@aionstech"> 
+        <meta name="twitter:creator" content="@aionstech"> 
+        <meta name="twitter:title" content="Nexavia | Web Developer Portfolio">
+        <meta name="twitter:description" content="Nexavia's portfolio showcases a passionate web developer's expertise in crafting beautiful, functional websites that deliver results.  Explore projects, skills, and testimonials.">
+        <meta name="twitter:image" content="https://nexavia10.web.app/assets/img/hero.jpeg" >  
+    
+        <!-- Favicon -->
+        <link rel="icon" type="image/png" href="assets/img/favicon.jpeg">  
+    
+        <!-- Apple Touch Icons -->
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon.jpeg"> 
+        <link rel="apple-touch-icon" sizes="152x152" href="assets/img/favicon.jpeg">
+        <link rel="apple-touch-icon" sizes="167x167" href="assets/img/favicon.jpeg">
+        <link rel="apple-touch-icon" sizes="120x120" href="assets/img/favicon.jpeg">
+        <link rel="apple-touch-icon" sizes="76x76" href="assets/img/favicon.jpeg">
+        <link rel="apple-touch-icon" sizes="57x57" href="assets/img/favicon.jpeg">
+    
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+        <!-- Bootstrap Icons -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="css/main.css"> 
+
+        <!-- Google Analytics 4 Snippet -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q259TL6DXR"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-Q259TL6DXR');
+        </script>
+    </head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#" style="font-weight: 900;">Nexavia</a>
+                <button title="nav" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mainNav">
+                    <ul class="navbar-nav ml-auto" style="font-weight: 800;">
+                        <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#hero">portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+<section class="hero" id="hero">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6" style="padding-bottom: 1.5em;">
+                <h1 class="hero-headline">Crafting Digital Experiences That Matter</h1>
+                <p class="hero-subheading">Passionate web developer with a focus on user-centric designs and cutting-edge technologies.</p>
+                <a href="portfolio.html" class="btn btn-primary">Explore My Portfolio</a>
+            </div>
+            <div class="col-md-6">
+                <img src="assets/img/hero.jpeg" alt="Nexavia" class="hero-image" style="max-inline-size: 100%; block-size: auto; max-block-size: 400px">
+            </div>
+        </div>
+    </div>
+</section>
+<style>
+    /* Hero Section Styles */
+.hero {
+    background-color: #f4f4f4; /* Light background */
+    padding: 8rem 0; /* Adjust padding as needed */
+  }
+  
+  .hero-headline {
+    font-size: 3rem; /* Adjust font size as needed */
+    font-weight: bold;
+    color: #333; /* Dark text color */
+    margin-bottom: 1rem;
+  }
+  
+  .hero-subheading {
+    font-size: 1.2rem; /* Adjust font size as needed */
+    color: #555; /* Slightly lighter text color */
+    margin-bottom: 2rem;
+  }
+  
+  /* Button Styles */
+  .btn-primary {
+    background-color: #007bff; /* Blue background */
+    color: #fff; /* White text */
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    transform: scale(1.1); /* Slight enlargement on hover */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Default shadow */
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Enhanced shadow */
+    transform: scale(1.1); /* Slight enlargement on hover */
+  }
+  
+  /* Animation for Glowing Effect */
+  .btn-primary::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.2); /* Soft white glow */
+    border-radius: 5px;
+    z-index: -1;
+    animation: glow 1s infinite alternate;
+  }
+  
+  @keyframes glow {
+    from {
+      transform: scale(1.1);
+      opacity: 0.8;
+    }
+    to {
+      transform: scale(1);
+      opacity: 0.2;
+    }
+  }
+  
+  /* Color-changing Animation */
+  .btn-primary::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #007bff; /* Blue background */
+    border-radius: 5px;
+    z-index: -2;
+    animation: color-change 3s infinite linear;
+  }
+  
+  @keyframes color-change {
+    0% {
+      background-color: #007bff; /* Blue */
+    }
+    25% {
+      background-color: #00b050; /* Green */
+    }
+    50% {
+      background-color: #ffb300; /* Yellow */
+    }
+    75% {
+      background-color: #dc3545; /* Red */
+    }
+    100% {
+      background-color: #007bff; /* Back to blue */
+    }
+  }
+  
+  /* Hero Image Styles */
+  .hero-image {
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Shadow */
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .hero-headline {
+      font-size: 2.5rem;
+    }
+    .hero-subheading {
+      font-size: 1rem;
+    }
+    .row {
+      flex-direction: column;
+    }
+    .col-md-6 {
+      width: 100%;
+    }
+    .hero-image {
+      max-block-size: 300px;
+    }
+  }
+</style>
+
+    <!-- About Me Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="assets/images/profile.jpg" alt="Profile Image" class="about-image">
+                </div>
+                <div class="col-md-8">
+                    <h2 class="section-heading">About Me</h2>
+                    <p>I'm Nexavia, a dedicated web developer with a passion for creating user-friendly and visually appealing websites. My journey into the world of web development began with an advice from a friend and mentor.</p>
+                    <p>I am driven by passion and love for coding and I strive to deliver high-quality, innovative solutions for every project. I am constantly learning and evolving, keeping up with the latest trends and technologies in the web development landscape.</p>
+                    <blockquote class="blockquote">
+                        <p class="mb-0">“I believe that every website should be a powerful tool for communication and connection.”</p>
+                        <footer class="blockquote-footer">
+                            <cite title="Source Title">Nexavia</cite>
+                        </footer>
+                    </blockquote>
+                    <ul class="list-inline about-skills">
+                        <li class="list-inline-item"><i class="bi bi-code-slash"></i> HTML</li>
+                        <li class="list-inline-item"><i class="bi bi-code-slash"></i> CSS</li>
+                        <li class="list-inline-item"><i class="bi bi-code-slash"></i> JavaScript</li>
+                        <li class="list-inline-item"><i class="bi bi-code-slash"></i> Ionic</li>
+                        <li class="list-inline-item"><i class="bi bi-code-slash"></i> React</li>
+                        <li class="list-inline-item"><i class="bi bi-code-slash"></i> Node.js</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <!-- <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="section-heading">Featured Projects</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card project-card">
+                        <img src="assets/images/statclac.png" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Statistical Calculator Webapp</h5>
+                            <p class="card-text">For statistics and data visualizations...</p>
+                            <a href="https://statcalc10.web.app/" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card project-card">
+                        <img src="assets/img/project2.jpg" class="card-img-top" alt="Project 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Project Title 2</h5>
+                            <p class="card-text">A brief description of Project 2 goes here.</p>
+                            <a href="project2.html" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card project-card">
+                        <img src="assets/img/project3.jpg" class="card-img-top" alt="Project 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Project Title 3</h5>
+                            <p class="card-text">A brief description of Project 3 goes here.</p>
+                            <a href="project3.html" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2 class="section-heading">My Skills</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="skill-item">
+                        <i class="bi bi-code-slash"></i>
+                        <h3>HTML & CSS</h3>
+                        <p>Proficient in building web pages with semantic HTML and CSS.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="skill-item">
+                        <i class="bi bi-code-slash"></i>
+                        <h3>JavaScript</h3>
+                        <p>Experienced in writing interactive JavaScript applications and using popular frameworks like React.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="skill-item">
+                        <i class="bi bi-code-slash"></i>
+                        <h3>Nodejs & Chartjs</h3>
+                        <p>Skilled in using Nodejs for backend development and chartjs for data visualizations.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<style>
+.skill-item {
+  /* Add a min-height to ensure all skill-items have at least this height */
+  min-height: 300px; /* Adjust this value as needed */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Distribute content evenly */
+  position: relative; /* For positioning the glow effect */
+  border-radius: 10px;
+  overflow: hidden; /* To clip the glow effect */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Smooth transitions for hover effect */
+}
+
+.skill-item:hover {
+  transform: translateY(-5px); /* Slightly lift the item on hover */
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2); /* Add a larger shadow */
+}
+
+.skill-item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.2)); /* Create a gradient for the glow effect */
+  z-index: -1; /* Place it behind the content */
+  opacity: 0; /* Initially hidden */
+  transition: opacity 0.3s ease-in-out; /* Smooth transition for the glow */
+}
+
+.skill-item:hover::before {
+  opacity: 1; /* Show the glow on hover */
+}
+</style>
+
+    <!-- Testimonials Section -->
+<section class="testimonials" id="testimonials">
+    <div class="container">
+        <h2 class="section-heading">What Clients Say</h2>
+        <div id="testimonialCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row align-items-center">
+                        <div class="col-md-12">
+                            <div class="testimonial-content">
+                                <p class="testimonial-text">"Nexavia was a fantastic partner. They were incredibly professional and delivered a website that exceeded our expectations. Highly recommend!"</p>
+                                <p class="testimonial-author">- Gilbert</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row align-items-center">
+                        <div class="col-md-12">
+                            <div class="testimonial-content">
+                                <p class="testimonial-text">"Nexavia delivered a website that truly reflects our brand. The design and functionality are top-notch. I'm thrilled with the results!"</p>
+                                <p class="testimonial-author">- Aion</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#testimonialCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#testimonialCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+</section>
+<style>
+    .testimonials {
+        background-color: #f5f5f5;
+        padding: 50px 0;
+      }
+      
+      .section-heading {
+        text-align: center;
+        margin-bottom: 30px;
+      }
+      
+      .testimonial-content {
+        background-color: #fff;
+        padding: 30px;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+      
+      .testimonial-text {
+        font-size: 1.2em;
+        line-height: 1.6;
+        margin-bottom: 15px;
+      }
+      
+      .testimonial-author {
+        font-style: italic;
+        font-size: 0.9em;
+        color: #777;
+      }
+</style>
+
+     <!-- Blog Posts Section -->
+<section class="blog" id="blog">
+    <div class="container">
+        <h2 class="section-heading">Latest Blog Posts</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card blog-card">
+                    <img src="blog/assets/image.png" class="card-img-top" alt="Blog Post 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Building a Static Website with Jekyll</h5>
+                        <p class="card-text">Getting Started with Jekyll. To get started with Jekyll, you'll need to have Ruby installed on your computer...</p>
+                        <a href="blog/blog-post1.html" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card blog-card">
+                    <img src="blog/assets/responsive.jpg" class="card-img-top" alt="Blog Post 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Best Practices for Responsive Web Design</h5>
+                        <p class="card-text">In today`s digital world, it`s more important...</p>
+                        <a href="blog/blog-post2.html" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card blog-card">
+                    <img src="./blog/assets/story.jpg" class="card-img-top" alt="Blog Post 3">
+                    <div class="card-body">
+                        <h5 class="card-title">The Power of Storytelling in Web Design</h5>
+                        <p class="card-text">In a world saturated with information, capturing user...</p>
+                        <a href="blog/blog-post3.html" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<style>
+    .blog {
+        padding: 50px 0;
+    }
+
+    .section-heading {
+        text-align: center;
+        margin-bottom: 40px;
+        animation: fadeInUp 1s ease-in-out;
+    }
+
+    .blog-card {
+        border: none;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        min-block-size: 450px !important;
+    }
+
+    .blog-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    .blog-card .card-img-top {
+        block-size: auto;
+        object-fit: cover;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .blog-card:hover .card-img-top {
+        transform: scale(1.1);
+    }
+
+    .blog-card .card-body {
+        padding: 20px;
+    }
+
+    .blog-card .card-title {
+        font-weight: bold !important;
+    }
+
+    .blog-card .card-text {
+        margin-bottom: 15px;
+    }
+
+    .blog-card .btn {
+        background-color: #007bff; /* Example button color */
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 25px;
+        transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    }
+
+    .blog-card .btn:hover {
+        background-color: #0056b3;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Animations */
+    @keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+</style>
+
+    
+    <section class="call-to-action" id="contact">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6" style="padding-bottom: 1em;">
+                    <h2 class="section-heading">Let's Build Something Amazing Together</h2>
+                    <p>Ready to bring your web development project to life? I'd love to discuss your ideas and collaborate with you.</p>
+                    <p style="font-weight: 900;"> Have a website in mind? <a href="inquiry.html" class="inquiry-button" style="text-decoration: none">Tell Us</a></p>
+                </div>
+                <div class="col-md-6">
+                    <div class="video-container">
+                        <video width="100%" height="auto" controls>
+                            <source src="assets/video.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <style>
+            .call-to-action {
+                background-color: #f2f2f2;
+                padding: 80px 0;
+                opacity: 0; /* Initially hidden */
+                transition: opacity 1s ease-in-out; /* Fade-in effect */
+                position: relative; /* For glowing effect */
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Container shadow */
+                text-align: center;
+            }
+    
+            .call-to-action.show { 
+                opacity: 1;
+            }
+    
+            .section-heading {
+                font-size: 36px;
+                font-weight: bold;
+                color: #333;
+                margin-bottom: 20px;
+            }
+    
+            /* Button Styles */
+            .inquiry-button {
+                background-color: #4CAF50; 
+                color: white;
+                padding: 15px 30px;
+                border: none;
+                border-radius: 25px; 
+                cursor: pointer;
+                font-size: 18px;
+                text-decoration: none; /* Remove underline */
+                transition: background-color 0.3s ease, box-shadow 0.3s ease;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Initial shadow */
+                position: relative; /* For glowing effect */
+            }
+    
+            .inquiry-button:hover {
+                background-color: #45a049; /* Change color on hover */
+                box-shadow: 0 6px 8px rgba(15, 3, 83, 0.15) !important; /* Stronger shadow on hover */
+            }
+    
+            /* Glowing Container Effect */
+            .call-to-action:hover::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(255, 255, 255, 0.2) !important; 
+                opacity: 1; 
+                transition: opacity 0.3s ease-in-out !important;
+                z-index: -1; 
+                border-radius: 10px; 
+            }
+    
+            /* Animated Glowing Button Effect */
+            .inquiry-button::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(255, 165, 0, 0.2) !important; /* Orange glow */
+                opacity: 0;
+                border-radius: 25px; /* Match button's border-radius */
+                transition: opacity 0.5s ease-in-out !important;
+                z-index: -1; 
+            }
+    
+            .inquiry-button:hover::before {
+                opacity: 1;
+                animation: glow 1s infinite alternate; 
+            }
+    
+            @keyframes glow {
+                0% {
+                    opacity: 0.2; 
+                }
+                50% {
+                    opacity: 1; 
+                }
+                100% {
+                    opacity: 0.2; 
+                }
+            }
+    
+            /* Video Container Styles */
+            .video-container {
+                position: relative;
+                overflow: hidden; 
+            }
+    
+            .video-container::before { 
+                content: ""; 
+                position: absolute; 
+                top: 0; 
+                left: 0; 
+                width: 100%; 
+                height: 100%; 
+                background-color: rgba(0, 0, 0, 0.2); 
+            }
+        </style>
+        <script>
+        window.addEventListener('load', function() {
+            document.querySelector('.call-to-action').classList.add('show');
+        });
+    </script>
+
+
+    <!-- Fixed Contact Icon -->
+    <a title="wa.me" rel="noopener" href="https://wa.me/+2348089009786" target="_blank" class="fixed-contact-icon" style="block-size: 50px; inline-size: 50px; border-radius: 50%; text-align: center;">
+        <i class="bi bi-whatsapp"></i>
+    </a>
+    
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5 class="footer-heading">About Me</h5>
+                    <p>I'm Nexavia, a passionate web developer dedicated to crafting elegant and functional websites that connect with users.</p>
+                    <a href="#about" class="btn btn-link">Learn More</a>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="footer-heading">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#hero">Home</a></li>
+                        <li><a href="./portfolio.html">Portfolio</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="footer-heading">Connect with Me</h5>
+                    <ul class="list-inline social-links">
+                        <li class="list-inline-item"><a rel="noopener" title="sos" href="https://www.linkedin.com/in/itiri-emmanuel-983273274/" target="_blank"><i class="bi bi-linkedin"></i></a></li>
+                        <li class="list-inline-item"><a rel="noopener" title="sos" href="https://x.com/aionstech2/" target="_blank"><i class="bi bi-twitter"></i></a></li>
+                        <li class="list-inline-item"><a rel="noopener" title="sos" href="https://web.facebook.com/profile.php?id=61555924085112" target="_blank"><i class="bi bi-facebook"></i></a></li>
+                        <li class="list-inline-item"><a rel="noopener" title="sos" href="https://wa.me/+2348089009786" target="_blank"><i class="bi bi-whatsapp"></i></a></li>
+                    </ul>
+                    <p class="copyright">© 2024 Nexavia. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,173 @@
+/* style.css */
+
+/* Primary Color (Bootstrap Blue) */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa; /* Light grey background */
+    color: #212529; /* Dark grey text */
+  }
+  
+  /* Secondary Color (Light Blue) */
+  .hero, .about, .projects, .skills, .testimonials, .blog, .call-to-action {
+    background-color: #e9ecef; /* Light grey background for sections */
+  }
+  
+  .btn-primary {
+    background-color: #007bff; /* Bootstrap blue for primary buttons */
+    border-color: #007bff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0069d9; /* Darker blue on hover */
+    border-color: #0062cc;
+  }
+  
+  
+  /* Tertiary Color (Orange) */
+  .fixed-contact-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #ffc107; /* Orange for WhatsApp icon */
+    color: #fff;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 100;
+  }
+  
+  /* Section Titles */
+  .section-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Other Styling */
+  
+  /* Header */
+  .header {
+    padding: 5px 0;
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+    background-color: rgb(222, 229, 227);
+  }
+  
+  /* Hero Section */
+  .hero {
+    padding: 100px 0;
+  }
+  
+  .hero-headline {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .hero-subheading {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    
+  }
+  
+  /* About Me Section */
+  .about-image {
+    border-radius: 50%;
+    width: 100%;
+  }
+  
+  .about-skills li {
+    margin-right: 10px;
+  }
+  
+  /* Projects Section */
+  .project-card {
+    margin-bottom: 20px;
+  }
+  
+  .project-card img {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  /* Skills Section */
+  .skill-item {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .skill-item i {
+    font-size: 2rem;
+    color: #007bff; /* Blue for skill icons */
+    margin-bottom: 10px;
+  }
+  
+  /* Testimonials Section */
+  .testimonial-text {
+    font-style: italic;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial-author {
+    font-weight: bold;
+  }
+  
+  /* Blog Section */
+  .blog-card {
+    margin-bottom: 20px;
+  }
+  
+  .blog-card img {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  /* Call to Action Section */
+  .call-to-action {
+    padding: 50px 0;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #343a40; /* Dark grey for footer */
+    color: #fff;
+    padding: 30px 0;
+  }
+  
+  .footer-heading {
+    color: #ffc107; /* Orange for footer headings */
+    margin-bottom: 15px;
+  }
+  
+  .social-links li {
+    margin-right: 10px;
+  }
+  
+  .social-links a {
+    color: #fff; /* White for social media links */
+    font-size: 1.5rem;
+  }
+  
+  .copyright {
+    text-align: center;
+    margin-top: 15px;
+  }
+
+
+  .video-container {
+    position: relative; /* To position controls properly */
+    padding-bottom: 56.25%; /* Aspect ratio for 16:9 videos */
+    height: 0;
+    overflow: hidden;
+  }
+  
+  .video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
